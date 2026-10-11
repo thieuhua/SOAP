@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>testSOAP</artifactId>
+    <artifactId>untitled1</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -31,6 +31,12 @@
                     <wsdlUrls>
                         <wsdlUrl>
                             http://36.50.135.242:2221/DataService?wsdl
+                        </wsdlUrl>
+                        <wsdlUrl>
+                            http://36.50.135.242:2221/CharacterService?wsdl
+                        </wsdlUrl>
+                        <wsdlUrl>
+                            http://36.50.135.242:2221/ObjectService?wsdl
                         </wsdlUrl>
                     </wsdlUrls>
                     <keep>true</keep>
